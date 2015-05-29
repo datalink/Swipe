@@ -544,11 +544,11 @@ function Swipe(container, options) {
 
 				// remove current event listeners
 				element.removeEventListener('touchstart', events, false);
-				element.removeEventListener('webkitTransitionEnd', events, false);
-				element.removeEventListener('msTransitionEnd', events, false);
-				element.removeEventListener('oTransitionEnd', events, false);
-				element.removeEventListener('otransitionend', events, false);
-				element.removeEventListener('transitionend', events, false);
+				//element.removeEventListener('webkitTransitionEnd', events, false);
+				//element.removeEventListener('msTransitionEnd', events, false);
+				//element.removeEventListener('oTransitionEnd', events, false);
+				//element.removeEventListener('otransitionend', events, false);
+				//element.removeEventListener('transitionend', events, false);
 				window.removeEventListener('resize', events, false);
 
 			}
